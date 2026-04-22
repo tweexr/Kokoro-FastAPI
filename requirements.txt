@@ -52,6 +52,8 @@ exceptiongroup==1.2.2 ; python_full_version < '3.11'
     #   pytest
 fastapi==0.115.6
     # via -r docs/requirements.in
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2
 filelock==3.16.1
     # via
     #   huggingface-hub
